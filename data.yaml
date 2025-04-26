@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Class_A', 'Premium', 'Reject']
+
+roboflow:
+  workspace: richielda-enabe
+  project: dragon-fruit-grade-classifier
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/richielda-enabe/dragon-fruit-grade-classifier/dataset/2
